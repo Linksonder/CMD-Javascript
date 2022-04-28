@@ -1,5 +1,22 @@
 # CMD-Javascript
 
+## Workshop 2
+
+* Verdieping
+    * Fetch
+    * Promises
+    * Async / Await
+
+
+
+
+
+* Vragen:
+    * Waarom zijn plaatjes er nog niet na defer?
+    * Maps vs Sets
+    * Scoping (let VS const VS var)
+
+
 ## Workshop 1
 
 * Exploratie
@@ -16,4 +33,6 @@ Doelen
 
 Losse onderwerpen
 * Document Ready
+
+
 
