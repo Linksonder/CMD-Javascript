@@ -42,6 +42,21 @@ document.querySelector('button').addEventListener('click', async function(){
     document.querySelector('img').src = picture;
 
 
+    //debugger;
+
+    //DOE DIT NIET
+    // let promises = [];
+    // for(let i = 0; i < 50; i++)
+    // {
+    //     let person = await GetRandomUser();
+    //     // let promise = GetRandomUser();
+    //     // promises.push(promise);
+    // }
+
+    // //await Promise.all(promises);
+    // debugger;
+
+
     //Optie 4: performance!
     // let promise1 = GetRandomUser();
     // let promise2 = GetRandomDogpic();
@@ -70,4 +85,18 @@ async function GetRandomDogpic(){
     return data.message;
 }
 
-
+//Optie 3B: Met try catch
+// async function GetRandomUser()
+// {
+//     try {
+//         let res = await fetch('https://randomuser.me/api');
+//         let data = await res.json();
+    
+//         //Kies uit data wat je nodig hebt, tip, console.log hem even...
+//         return data.results[0].name.first;
+//     }
+//     catch(e)
+//     {
+//         return 'Stijn';
+//     }
+// }
